@@ -1,0 +1,106 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script>
+	function OKbtn() {
+		var from=$('#from').val();
+		var to=$('#to').val();
+		var text=$('#text').val();
+		
+		/* Google */
+		$('#g').val('');
+		$.ajax({
+			method: 'GET',
+			url: 'https://translate.googleapis.com/translate_a/single', 
+			data: {
+				sl: from,
+				tl: to,
+				q: text,
+				client: 'gtx',
+				dt: 't'
+			}
+		}).done(function(data) {
+			var i=0;
+			while(data[0][i]) {
+				$('#g').val($('#g').val()+data[0][i][0] + (data[0][i][0].trim()==data[0][i][0]?' ':'') );
+				i++;
+			}
+		});
+		
+		/* Bing */
+		$('#b').attr('src','about:blank');
+		$('#b').attr('src','https://www.bing.com/translator/?from='+from+'&to='+to+'&text='+text);
+		$('#b').on('load', function(){
+			$('#db').scrollLeft(350);
+			$('#db').scrollTop(215);
+		});
+
+		/* WordLingo */
+		$('#w').attr('src','about:blank');
+		$('#w').attr('src','https://www.worldlingo.com/S000.1/api?wl_srclang='+from+'&wl_trglang='+to+'&wl_data='+text+'&wl_password=secret&wl_errorstyle=1')
+		
+	}
+</script>
+
+<style>
+	body { text-align:center; font-family:sans-serif }
+	input { width:60px }
+	textarea, iframe, table, #db { width:100%; height:150px; border: 1px solid grey }
+	table, #b { border:none }
+	table tr td { width:33% }
+	
+	#g { padding:8px }
+	#db { overflow:hidden }
+	#b { height:1000%; width:200% }
+</style>
+
+<title>Alat bantu terjemahan, oleh William Surya Permana</title>
+
+<h2>Alat bantu terjemahan</h2>
+
+<datalist id=list>
+	<option value=en />
+	<option value=id />
+	<option value=zh_cn />
+	<option value=zh_tw />
+	<option value=ja />
+	<option value=ko />
+	<option disabled value=- />
+	<option value=ar />
+	<option value=de />
+	<option value=el />
+	<option value=es />
+	<option value=ev />
+	<option value=fr />
+	<option value=it />
+	<option value=nl />
+	<option value=pt />
+	<option value=ru />
+</datalist>
+
+Dari: <input id=from list=list value=ja />
+Ke:   <input id=to   list=list value=en />
+
+<h3>Teks asli</h3>
+<textarea id=text>
+暑さ厳しき折から、貴社ますますご盛栄のこととお慶び申し上げます、
+平素は当店を御利用いただき御厚情のほど、心より御礼申し上げます。
+</textarea>
+<input type=button value=Terjemahkan style="width:100%" onclick="OKbtn()"/>
+
+<h3>Terjemahan</h3>
+<table><tr>
+	<td>
+		Google<br/>
+		<textarea id=g></textarea>
+	</td>
+	<td>
+		Bing (Microsoft)<br/>
+		<div id=db><iframe id=b></iframe></div>
+	</td>
+	<td>
+		WordLingo<br/>
+		<iframe id=w></iframe>
+	</td>
+</tr></table>
+
+<br>&copy; 2017 William Surya Permana
