@@ -25,3 +25,5 @@
 [<img src='sticker_siapa_sih_dia.png' height='100'/>](sticker_siapa_sih_dia.png)
 [<img src='sticker_siapa_yang_salah.png' height='100'/>](sticker_siapa_yang_salah.png)
 [<img src='sticker_taki_dan_mitsuha.png' height='100'/>](sticker_taki_dan_mitsuha.png)
+
+[<< Balik](https://williamsp.github.io/salahsambung)

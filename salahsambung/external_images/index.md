@@ -11,17 +11,19 @@
 [<img src='6. Album 5 - Kampus_jO0A6514.jpg' height='100'/>](6. Album 5 - Kampus_jO0A6514.jpg)
 [<img src='7. Album 6 - Menunggu_Kop9ghSU.jpg' height='100'/>](7. Album 6 - Menunggu_Kop9ghSU.jpg)
 [<img src='7. Album 6 - Menunggu_Kop9ihSU.jpg' height='100'/>](7. Album 6 - Menunggu_Kop9ihSU.jpg)
-[<img src='8. Album 7 - Kost Damon_Lop9ghSU.jpg' height='100'/>](8. Album 7 - Kost Damon_Lop9ghSU.jpg)
-[<img src='8. Album 7 - Kost Damon_Lqp9ghSU.jpg' height='100'/>](8. Album 7 - Kost Damon_Lqp9ghSU.jpg)
+<!--[<img src='8. Album 7 - Kost Damon_Lop9ghSU.jpg' height='100'/>](8. Album 7 - Kost Damon_Lop9ghSU.jpg)-->
+<!--[<img src='8. Album 7 - Kost Damon_Lqp9ghSU.jpg' height='100'/>](8. Album 7 - Kost Damon_Lqp9ghSU.jpg)-->
 [<img src='8. Album 7 - Kost Damon_Lqp9jhSU.jpg' height='100'/>](8. Album 7 - Kost Damon_Lqp9jhSU.jpg)
 [<img src='10. Album 8 - Inya dan Luna_Lrb2ghSV.jpg' height='100'/>](10. Album 8 - Inya dan Luna_Lrb2ghSV.jpg)
 [<img src='10. Album 8 - Inya dan Luna_Lrb3giSV.JPG' height='100'/>](10. Album 8 - Inya dan Luna_Lrb3giSV.JPG)
 [<img src='11. Album 9 - Foto Bareng_Lsp7ghSV.JPG' height='100'/>](11. Album 9 - Foto Bareng_Lsp7ghSV.JPG)
 [<img src='11. Album 9 - Foto Bareng_Mrp8ghSU.JPG' height='100'/>](11. Album 9 - Foto Bareng_Mrp8ghSU.JPG)
-[<img src='11. Album 9 - Foto Bareng_MSu9khTX.JPG' height='100'/>](11. Album 9 - Foto Bareng_MSu9khTX.JPG)
+<!--[<img src='11. Album 9 - Foto Bareng_MSu9khTX.JPG' height='100'/>](11. Album 9 - Foto Bareng_MSu9khTX.JPG)-->
 [<img src='12. Album 10 - Jepang_NTu9khTW.JPG' height='100'/>](12. Album 10 - Jepang_NTu9khTW.JPG)
 [<img src='12. Album 10 - Jepang_NTw9khTU.JPG' height='100'/>](12. Album 10 - Jepang_NTw9khTU.JPG)
 [<img src='13. foto ending_Oqp9jhSV.jpg' height='100'/>](13. foto ending_Oqp9jhSV.jpg)
 [<img src='13. foto ending_Orp9jhSU.JPG' height='100'/>](13. foto ending_Orp9jhSU.JPG)
 [<img src='8n3wzevn.png' height='100'/>](8n3wzevn.png)
 [<img src='573JJ59E.jpg' height='100'/>](573JJ59E.jpg)
+
+[<< Balik](https://williamsp.github.io/salahsambung)
