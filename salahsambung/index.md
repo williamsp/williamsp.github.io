@@ -1,8 +1,8 @@
 ### Simulasi Salah Sambung
 
 Halaman ini berisi beberapa sumberdaya terkait permainan Salah Sambung.
-Permainan aslinya sendiri dapat kalian temukan di [Google Play]
-(https://play.google.com/store/apps/details?id=com.rollingglory.salahsambung).
+Permainan aslinya sendiri dapat kalian temukan di 
+[Google Play](https://play.google.com/store/apps/details?id=com.rollingglory.salahsambung).
 
 ---
 
