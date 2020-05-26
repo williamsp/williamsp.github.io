@@ -35,8 +35,38 @@
 		});
 
 		/* WordLingo */
-		$('#w').attr('src','about:blank');
-		$('#w').attr('src','https://www.worldlingo.com/S000.1/api?wl_srclang='+from+'&wl_trglang='+to+'&wl_data='+text+'&wl_password=secret&wl_errorstyle=1')
+		// $('#w').attr('src','about:blank');
+		// $('#w').attr('src','https://www.worldlingo.com/S000.1/api?wl_srclang='+from+'&wl_trglang='+to+'&wl_data='+text+'&wl_password=secret&wl_errorstyle=1');
+		$('#w').val('');
+		$.ajax({
+			method: 'GET',
+			url: 'https://www.worldlingo.com/S000.1/api', 
+			data: {
+				wl_srclang: from,
+				wl_trglang: to,
+				wl_data: text.replace(/\n/g,' '),
+				wl_password: 'secret',
+				wl_errorstyle: '1'
+			}
+		}).done(function(data) {
+			$.ajax({
+				method: 'GET',
+				url: 'https://translate.googleapis.com/translate_a/single', 
+				data: {
+					sl: 'auto',
+					tl: to,
+					q: data,
+					client: 'gtx',
+					dt: 't'
+				}
+			}).done(function(data) {
+				var i=0;
+				while(data[0][i]) {
+					$('#w').val($('#w').val()+data[0][i][0] + (data[0][i][0].trim()==data[0][i][0]?' ':'') );
+					i++;
+				}
+			});
+		});
 		
 	}
 </script>
@@ -91,7 +121,7 @@ Ke:   <input id=to   list=list value=en />
 <table><tr>
 	<td>
 		Google<br/>
-		<textarea id=g></textarea>
+		<textarea id=g readonly></textarea>
 	</td>
 	<td>
 		Bing (Microsoft)<br/>
@@ -99,7 +129,8 @@ Ke:   <input id=to   list=list value=en />
 	</td>
 	<td>
 		WordLingo<br/>
-		<iframe id=w></iframe>
+		<!--iframe id=w></iframe-->
+		<textarea id=w readonly></textarea>
 	</td>
 </tr></table>
 
