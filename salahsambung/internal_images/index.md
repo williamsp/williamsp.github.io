@@ -15,6 +15,7 @@
 [<img src='sticker_cowok_plin_plan.png' height='100'/>](sticker_cowok_plin_plan.png)
 [<img src='sticker_cowok_settle.png' height='100'/>](sticker_cowok_settle.png)
 [<img src='sticker_cowok_sksd.png' height='100'/>](sticker_cowok_sksd.png)
+[<img src='sticker_foto_apa_itu.png' height='100'/>](sticker_foto_apa_itu.png)
 [<img src='sticker_gagal_bohong.png' height='100'/>](sticker_gagal_bohong.png)
 [<img src='sticker_gagal_pdkt.png' height='100'/>](sticker_gagal_pdkt.png)
 [<img src='sticker_jadi_marahan_deh.png' height='100'/>](sticker_jadi_marahan_deh.png)
