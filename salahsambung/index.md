@@ -12,9 +12,9 @@ Jelajahi dengan bebas rute Salah Sambung tanpa takut salah langkah.
 Kalian dapat membatalkan langkah-langkah terakhir kalian tanpa batas,
 serta lompat ke titik tertentu dalam cerita, baik ke depan maupun ke belakang.
 
-- [Chat 9](https://williamsp.github.io/salah_sambung/chat_9)
+- [Chat 9](https://williamsp.github.io/salahsambung/chat_9)
 &mdash; Naskah utama
-- [Chat Inya](https://williamsp.github.io/salah_sambung/chat_inya)
+- [Chat Inya](https://williamsp.github.io/salahsambung/chat_inya)
 &mdash; Sampingan
 
 ---
@@ -23,8 +23,8 @@ serta lompat ke titik tertentu dalam cerita, baik ke depan maupun ke belakang.
 
 Berikut beberapa gambar yang digunakan dalam permainan:
 
-- [Stiker](https://williamsp.github.io/salah_sambung/internal_iamges)
-- [Album](https://williamsp.github.io/salah_sambung/external_iamges)
+- [Stiker](https://williamsp.github.io/salahsambung/internal_images)
+- [Album](https://williamsp.github.io/salahsambung/external_images)
 
 ---
 
@@ -34,7 +34,7 @@ Bagi kalian yang ingin mengetahui format mentah yang menjadi dasar simulasi
 di atas, dapat melihat berkas berikut ini. Kalian dapat menggunakannya sebagai
 sampel pada perkakas yang saya buat (lihat bagian kode sumber di bawah).
 
-- [Chat Inya](https://williamsp.github.io/salah_sambung/raw_scripts/chat_inya.json)
+- [Chat Inya](https://williamsp.github.io/salahsambung/raw_scripts/chat_inya.json)
 
 ---
 
