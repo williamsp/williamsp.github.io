@@ -1,0 +1,298 @@
+{
+  "passages": [
+    {
+      "text": "Halo...\n[[Halo juga... ->Salam kenal ^^\n aku Inya, temennya Luna...]]\n[[Halo, maaf dengan siapa ya ini? ->Salam kenal ^^\n aku Inya, temennya Luna...]]",
+      "links": [
+        {
+          "name": "Halo juga... ",
+          "link": "Salam kenal ^^\n aku Inya, temennya Luna...",
+          "pid": "4002"
+        },
+        {
+          "name": "Halo, maaf dengan siapa ya ini? ",
+          "link": "Salam kenal ^^\n aku Inya, temennya Luna...",
+          "pid": "4002"
+        }
+      ],
+      "name": "Halo...",
+      "pid": "4001",
+      "position": {
+        "x": "891",
+        "y": "906"
+      },
+      "tags": [
+        "Inya-masuk",
+        "notif-hari-ke-5"
+      ]
+    },
+    {
+      "text": "Salam kenal ^^\n aku Inya, temennya Luna...\n[[Halo Inya, ada apa ya? ->Bener ya,\n kamu kenal sama Luna]]\n[[Ohhh, temennya Luna ->Bener ya,\n kamu kenal sama Luna]]",
+      "links": [
+        {
+          "name": "Halo Inya, ada apa ya? ",
+          "link": "Bener ya,\n kamu kenal sama Luna",
+          "pid": "4003"
+        },
+        {
+          "name": "Ohhh, temennya Luna ",
+          "link": "Bener ya,\n kamu kenal sama Luna",
+          "pid": "4003"
+        }
+      ],
+      "name": "Salam kenal ^^\n aku Inya, temennya Luna...",
+      "pid": "4002",
+      "position": {
+        "x": "1080",
+        "y": "912"
+      }
+    },
+    {
+      "text": "Bener ya,\n kamu kenal sama Luna\n[[iyapp,\n beberapa hari yang lalu kenalnya :) ->iyah, aku temen deketnya Luna juga,\n dulu sih...]]\n[[Bener,\n belum lama kok kenalnya ^^ ->iyah, aku temen deketnya Luna juga,\n dulu sih...]]",
+      "links": [
+        {
+          "name": "iyapp,\n beberapa hari yang lalu kenalnya :) ",
+          "link": "iyah, aku temen deketnya Luna juga,\n dulu sih...",
+          "pid": "4004"
+        },
+        {
+          "name": "Bener,\n belum lama kok kenalnya ^^ ",
+          "link": "iyah, aku temen deketnya Luna juga,\n dulu sih...",
+          "pid": "4004"
+        }
+      ],
+      "name": "Bener ya,\n kamu kenal sama Luna",
+      "pid": "4003",
+      "position": {
+        "x": "1253",
+        "y": "912"
+      }
+    },
+    {
+      "text": "iyah, aku temen deketnya Luna juga,\n dulu sih...\n[[Dulu? ->Menurut kamu,\n Luna gimana orangnya ^^]] \n[[Loh...sekarang udah nggak? ->Menurut kamu,\n Luna gimana orangnya ^^]]",
+      "links": [
+        {
+          "name": "Dulu? ",
+          "link": "Menurut kamu,\n Luna gimana orangnya ^^",
+          "pid": "4005"
+        },
+        {
+          "name": "Loh...sekarang udah nggak? ",
+          "link": "Menurut kamu,\n Luna gimana orangnya ^^",
+          "pid": "4005"
+        }
+      ],
+      "name": "iyah, aku temen deketnya Luna juga,\n dulu sih...",
+      "pid": "4004",
+      "position": {
+        "x": "1436",
+        "y": "912"
+      }
+    },
+    {
+      "text": "Menurut kamu,\n Luna gimana orangnya ^^\n[[Baik kok anaknya :)\n cuma kasian aja,\n masih belum move on baru aja putus sama pacarnya ^^ ->terus pacarnya,\n eh mantannya masih sering ngajak ketemu dia gitu kan pasti?]]\n[[anaknya, lucu, cantik juga, haha :D\n tapi masih galau ya, habis putus gitu kayaknya... ->terus pacarnya,\n eh mantannya masih sering ngajak ketemu dia gitu kan pasti?]]",
+      "links": [
+        {
+          "name": "Baik kok anaknya :)\n cuma kasian aja,\n masih belum move on baru aja putus sama pacarnya ^^ ",
+          "link": "terus pacarnya,\n eh mantannya masih sering ngajak ketemu dia gitu kan pasti?",
+          "pid": "4006"
+        },
+        {
+          "name": "anaknya, lucu, cantik juga, haha :D\n tapi masih galau ya, habis putus gitu kayaknya... ",
+          "link": "terus pacarnya,\n eh mantannya masih sering ngajak ketemu dia gitu kan pasti?",
+          "pid": "4006"
+        }
+      ],
+      "name": "Menurut kamu,\n Luna gimana orangnya ^^",
+      "pid": "4005",
+      "position": {
+        "x": "1613",
+        "y": "917"
+      }
+    },
+    {
+      "text": "terus pacarnya,\n eh mantannya masih sering ngajak ketemu gitu dia kan pasti?\n[[wait,\n kok kamu tahu? ->Kamu udah ketemu sama dia??]]\n[[maksud kamu? ->Kamu udah ketemu sama dia??]]",
+      "links": [
+        {
+          "name": "wait,\n kok kamu tahu? ",
+          "link": "Kamu udah ketemu sama dia??",
+          "pid": "4007"
+        },
+        {
+          "name": "maksud kamu? ",
+          "link": "Kamu udah ketemu sama dia??",
+          "pid": "4007"
+        }
+      ],
+      "name": "terus pacarnya,\n eh mantannya masih sering ngajak ketemu dia gitu kan pasti?",
+      "pid": "4006",
+      "position": {
+        "x": "1775",
+        "y": "914"
+      }
+    },
+    {
+      "text": "Kamu udah ketemu sama dia??\n[[Udah janjian sih,\n mungkin beberapa saat lagi ->wait jangann!!\n jangan ketemu dia,\n dia psikopat!]]\n[[Belum? emang kenapa? ->Baguslahh,\n lega gue.../ Luna tuh psikopat!]]",
+      "links": [
+        {
+          "name": "Udah janjian sih,\n mungkin beberapa saat lagi ",
+          "link": "wait jangann!!\n jangan ketemu dia,\n dia psikopat!",
+          "pid": "4008"
+        },
+        {
+          "name": "Belum? emang kenapa? ",
+          "link": "Baguslahh,\n lega gue.../ Luna tuh psikopat!",
+          "pid": "4010"
+        }
+      ],
+      "name": "Kamu udah ketemu sama dia??",
+      "pid": "4007",
+      "position": {
+        "x": "1951",
+        "y": "912"
+      }
+    },
+    {
+      "text": "wait jangann!!\n jangan ketemu dia,\n dia psikopat!\n[[maksud kamu apa sih,\n bilang Luna psikopat? ->Mau tau salah satunya?\n Mantan Luna itu udah meninggal sejak tahun lalu,\n meninggal di kostnya...]]\n[[psikopat gimana sih? ->Mau tau salah satunya?\n Mantan Luna itu udah meninggal sejak tahun lalu,\n meninggal di kostnya...]]",
+      "links": [
+        {
+          "name": "maksud kamu apa sih,\n bilang Luna psikopat? ",
+          "link": "Mau tau salah satunya?\n Mantan Luna itu udah meninggal sejak tahun lalu,\n meninggal di kostnya...",
+          "pid": "4009"
+        },
+        {
+          "name": "psikopat gimana sih? ",
+          "link": "Mau tau salah satunya?\n Mantan Luna itu udah meninggal sejak tahun lalu,\n meninggal di kostnya...",
+          "pid": "4009"
+        }
+      ],
+      "name": "wait jangann!!\n jangan ketemu dia,\n dia psikopat!",
+      "pid": "4008",
+      "position": {
+        "x": "2144",
+        "y": "791"
+      }
+    },
+    {
+      "text": "Mau tau salah satunya?\n Mantan Luna itu udah meninggal sejak tahun lalu,\n meninggal di kostnya...\n[[Jangan ngomong asal ya... ->Ngerinya lagi,\n waktu ditemuin meninggal,\n Luna tuh lagi di kamar kost itu juga...]]\n[[What? beneran? ->Ngerinya lagi,\n waktu ditemuin meninggal,\n Luna tuh lagi di kamar kost itu juga...]]",
+      "links": [
+        {
+          "name": "Jangan ngomong asal ya... ",
+          "link": "Ngerinya lagi,\n waktu ditemuin meninggal,\n Luna tuh lagi di kamar kost itu juga...",
+          "pid": "4011"
+        },
+        {
+          "name": "What? beneran? ",
+          "link": "Ngerinya lagi,\n waktu ditemuin meninggal,\n Luna tuh lagi di kamar kost itu juga...",
+          "pid": "4011"
+        }
+      ],
+      "name": "Mau tau salah satunya?\n Mantan Luna itu udah meninggal sejak tahun lalu,\n meninggal di kostnya...",
+      "pid": "4009",
+      "position": {
+        "x": "2336",
+        "y": "922"
+      }
+    },
+    {
+      "text": "Baguslahh,\n lega gue.../ Luna tuh psikopat!\n[[maksud kamu apa sih,\n bilang Luna psikopat? ->Mau tau salah satunya?\n Mantan Luna itu udah meninggal sejak tahun lalu,\n meninggal di kostnya...]]\n[[psikopat gimana sih? ->Mau tau salah satunya?\n Mantan Luna itu udah meninggal sejak tahun lalu,\n meninggal di kostnya...]]",
+      "links": [
+        {
+          "name": "maksud kamu apa sih,\n bilang Luna psikopat? ",
+          "link": "Mau tau salah satunya?\n Mantan Luna itu udah meninggal sejak tahun lalu,\n meninggal di kostnya...",
+          "pid": "4009"
+        },
+        {
+          "name": "psikopat gimana sih? ",
+          "link": "Mau tau salah satunya?\n Mantan Luna itu udah meninggal sejak tahun lalu,\n meninggal di kostnya...",
+          "pid": "4009"
+        }
+      ],
+      "name": "Baguslahh,\n lega gue.../ Luna tuh psikopat!",
+      "pid": "4010",
+      "position": {
+        "x": "2146",
+        "y": "992"
+      }
+    },
+    {
+      "text": "Ngerinya lagi,\n waktu ditemuin meninggal,\n Luna tuh lagi di kamar kost itu juga...\n[[Kamu ngomong bener kan? ->Kalo kamu ga percaya ya udah,\n aku cuma mau ngasih tahu aja,\n aku tuh khawatir banget Luna ngulangin lagi siasatnya ke cowok-cowok random...\n jauh jauh deh dari orang psikopat...]]\n[[What?? Luna??\n dia ngapain di sana? ->Kalo kamu ga percaya ya udah,\n aku cuma mau ngasih tahu aja,\n aku tuh khawatir banget Luna ngulangin lagi siasatnya ke cowok-cowok random...\n jauh jauh deh dari orang psikopat...]]",
+      "links": [
+        {
+          "name": "Kamu ngomong bener kan? ",
+          "link": "Kalo kamu ga percaya ya udah,\n aku cuma mau ngasih tahu aja,\n aku tuh khawatir banget Luna ngulangin lagi siasatnya ke cowok-cowok random...\n jauh jauh deh dari orang psikopat...",
+          "pid": "4012"
+        },
+        {
+          "name": "What?? Luna??\n dia ngapain di sana? ",
+          "link": "Kalo kamu ga percaya ya udah,\n aku cuma mau ngasih tahu aja,\n aku tuh khawatir banget Luna ngulangin lagi siasatnya ke cowok-cowok random...\n jauh jauh deh dari orang psikopat...",
+          "pid": "4012"
+        }
+      ],
+      "name": "Ngerinya lagi,\n waktu ditemuin meninggal,\n Luna tuh lagi di kamar kost itu juga...",
+      "pid": "4011",
+      "position": {
+        "x": "2520",
+        "y": "919"
+      }
+    },
+    {
+      "text": "Kalo kamu ga percaya ya udah,\n aku cuma mau ngasih tahu aja,\n aku tuh kawatir banget Luna ngulangin lagi siasatnya ke cowok-cowok random...\n jauh jauh deh dari orang psikopat...\n[[Inya, Thank you yah buat infonya...Luna... ->Kamu kok bisa kenal sih ama Luna?\n Ati-ati deh sama orang baru gitu, jangan main ketemu aja...]]\n[[aku speechless :( ->Kamu kok bisa kenal sih ama Luna?\n Ati-ati deh sama orang baru gitu, jangan main ketemu aja...]]",
+      "links": [
+        {
+          "name": "Inya, Thank you yah buat infonya...Luna... ",
+          "link": "Kamu kok bisa kenal sih ama Luna?\n Ati-ati deh sama orang baru gitu, jangan main ketemu aja...",
+          "pid": "4013"
+        },
+        {
+          "name": "aku speechless :( ",
+          "link": "Kamu kok bisa kenal sih ama Luna?\n Ati-ati deh sama orang baru gitu, jangan main ketemu aja...",
+          "pid": "4013"
+        }
+      ],
+      "name": "Kalo kamu ga percaya ya udah,\n aku cuma mau ngasih tahu aja,\n aku tuh khawatir banget Luna ngulangin lagi siasatnya ke cowok-cowok random...\n jauh jauh deh dari orang psikopat...",
+      "pid": "4012",
+      "position": {
+        "x": "2700",
+        "y": "931"
+      }
+    },
+    {
+      "text": "Kamu kok bisa kenal sih ama Luna?\n Ati-ati deh sama orang baru gitu, jangan main ketemu aja...\n[[Okee, okee\n thank you sekali lagi... ->Yapp,\n sama-sama, Byee]]\n[[Iya...\n thank you Inya... ->Yapp,\n sama-sama, Byee]]",
+      "links": [
+        {
+          "name": "Okee, okee\n thank you sekali lagi... ",
+          "link": "Yapp,\n sama-sama, Byee",
+          "pid": "4014"
+        },
+        {
+          "name": "Iya...\n thank you Inya... ",
+          "link": "Yapp,\n sama-sama, Byee",
+          "pid": "4014"
+        }
+      ],
+      "name": "Kamu kok bisa kenal sih ama Luna?\n Ati-ati deh sama orang baru gitu, jangan main ketemu aja...",
+      "pid": "4013",
+      "position": {
+        "x": "2886",
+        "y": "939"
+      }
+    },
+    {
+      "text": "Yapp,\n sama-sama, Byee",
+      "name": "Yapp,\n sama-sama, Byee",
+      "pid": "4014",
+      "position": {
+        "x": "3065",
+        "y": "941"
+      },
+      "tags": [
+        "move-selesai-inya"
+      ]
+    }
+  ],
+  "name": "Salah Sambung - Inya",
+  "startnode": "1",
+  "creator": "Twine",
+  "creator-version": "2.1.3",
+  "ifid": "285C6F5F-67E5-4A8F-BFB2-7786C77D93EF"
+}

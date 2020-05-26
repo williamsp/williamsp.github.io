@@ -1,0 +1,137 @@
+body { font-family:'Lato', sans-serif }
+a, a:visited { color:blue }
+tr:target { background:lightyellow }
+tr td, tr th { border: 1px solid lightgray; max-width: 50vw }
+span { color:lightgray }
+img { border:1px solid lightgray; margin-bottom:5px }
+table { margin-top: 10px; min-width: 340px; border-collapse: collapse }
+
+.salsam_table { margin-top: 0; display:block }
+.salsam_table tbody { display:none }
+.salsam_table tr td, .salsam_table tr th { border:none }
+.salsam_opt { display:list-item; margin-left:15px }
+.salsam_opt:target a { color:red !important }
+
+.playmode#tablePassages tr { display:none }
+.playmode#tablePassages tr:target { display:grid; background:#eee }
+.playmode#tablePassages tr td { border:none; max-width: 90vw; padding: 5px }
+.playmode#tablePassages .salsam_table thead tr { display:grid }
+.playmode#tablePassages .salsam_table a { color:orange; text-decoration:none }
+.playmode .salsam_opt, .playmode .salsam_table { max-width: 90vw; }
+
+/*.playmode tr td:nth-of-type(1), .playmode tr td:nth-of-type(2), .playmode tr td:nth-of-type(3) { display:none }*/
+
+#modeLink { display: none }
+#restartLink { display: none }
+#restartLink.playmode { display: inherit }
+
+.playmode .salsam_table {
+  width: 340px;
+  margin-right: 10px;
+}
+.playmode .salsam_table thead tr td {
+  border-bottom: none;
+}
+.playmode .salsam_table tbody tr td {
+  border-top: none;
+}
+
+.playmode .salsam_luna, .playmode .salsam_mc {
+  padding: 5px;
+  margin: 4px;
+  border-radius: 5px;
+  max-width: 280px;
+  position: relative;
+  clear: both;
+}
+.playmode .salsam_luna {
+  border: 1px solid lightgray;
+  background-color: white;
+  color: #333;
+  float: left;
+  margin-left: 40px;
+}
+.playmode .salsam_mc {
+  border: 1px solid orange;
+  background-color: orange;
+  color: white;
+  float: right;
+  max-width: 280px;
+}
+
+.playmode .salsam_luna:after, .playmode .salsam_mc:before {
+  position: absolute;
+  bottom: 2px;
+  color: #999;
+  font-size: 60%;
+  white-space: pre;
+}
+.playmode .salsam_luna:after {
+  content: '00:00';
+  right: -30px;
+  text-align: left;
+}
+.playmode .salsam_mc:before {
+  content: 'Read\A 00:00';
+  left: -30px;
+  text-align: right;
+}
+
+.playmode .salsam_luna:before {
+  content: ' ';
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: -40px;
+  top: 0;
+  background-image: url('internal_images/profile_picture_inya.jpg');
+  background-size: 30px;
+  border-radius: 15px;
+}
+
+.playmode .salsam_luna img {
+  border: none;
+  margin: -5px;
+  height: 125px;
+}
+
+.playmode .salsam_opt {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  box-shadow: 0 5px lightgray;
+  background-color: white;
+  color: orange;
+  text-align:center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  clear:both;
+  width: 100%;
+  min-width: 325px;
+  margin: -2px -2px 2px;
+  cursor: pointer;
+  display: block;
+}
+
+.playmode .salsam_lanjut {
+  clear: both;
+  display: block;
+  text-align: right;
+}
+.playmode .salsam_left {
+  clear: both;
+  display: inline-block;
+  margin: auto;
+  color: white;
+  background-color: #aaa;
+  font-size: 13px;
+  border-radius: 5px; 
+  padding: 5px 10px;
+}
+.hidden {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  body, table { font-size: 90% }
+}

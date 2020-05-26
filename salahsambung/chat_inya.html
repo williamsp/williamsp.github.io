@@ -1,0 +1,740 @@
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Isamu no Heya: Salah Sambung - Inya (chat_inya)</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" />
+  <link href="simulator.css" rel="stylesheet" />
+</head>
+
+<body style="display: none;">
+  <b>Salah Sambung - Inya (chat_inya)</b><br />
+
+  <div id="modeLink">
+    <b>Mode:</b>
+    <label><input type="radio" name="mode" checked onclick="document.getElementById('tablePassages').classList.remove('playmode'); document.getElementById('restartLink').classList.remove('playmode');" />Naskah</label>
+    <label><input type="radio" name="mode" id="playmoderadio" onclick="document.getElementById('tablePassages').classList.add('playmode'); document.getElementById('restartLink').classList.add('playmode');" />Main</label>
+  </div>
+
+  <div id="restartLink">
+    <b>Navigasi:</b>
+    <a href="javascript:" onclick="window.history.back()">&laquo; Mundur</a> | 
+	<a href="javascript:" onclick="window.history.forward()">Maju &raquo;</a> | 
+	<a href="#4001">Mulai dari awal</a><span> &rarr;4001</span>
+  </div>
+
+  <table cellpadding="5" id="tablePassages">
+    <thead>
+      <tr>
+        <th>No</th>
+        <th style="width: 50%;">Chat dari NPC</th>
+        <th style="width: 50%;">Pilihan MC</th>
+        <th>Tindakan</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr id="4001">
+        <td>
+          <a name="4001"></a>
+          <a href="#to4001">4001</a>
+        </td>
+        <td>
+          <div class="salsam_luna">Halo...</div>
+        </td>
+        <td>
+          <table class="salsam_table">
+            <thead>
+              <tr>
+                <td>
+                  <div class="salsam_opt first" id="to4002"><a href="#4002">Halo juga... </a> <span>&rarr;4002</span></div>
+                </td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <div class="salsam_mc">Halo juga...</div>
+                  <!-- 4002 -->
+                </td>
+              </tr>
+            </tbody>
+            <thead>
+              <tr>
+                <td>
+                  <div class="salsam_opt" id="to4002"><a href="#4002">Halo, maaf dengan siapa ya ini? </a> <span>&rarr;4002</span></div>
+                </td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <div class="salsam_mc">Halo, maaf dengan siapa ya ini?</div>
+                  <!-- 4002 -->
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+        <td>
+          <div style="clear: both;"></div>
+          <center><div class="salsam_left">Inya_masuk</div></center>
+          <div style="clear: both;"></div>
+          <div style="clear: both;"></div>
+          <center><div class="salsam_left">notif_hari_ke_5</div></center>
+          <div style="clear: both;"></div>
+        </td>
+      </tr>
+      <tr id="4002">
+        <td>
+          <a name="4002"></a>
+          <a href="#to4002">4002</a>
+        </td>
+        <td>
+          <div class="salsam_luna">Salam kenal ^^</div>
+          <div class="salsam_luna">aku Inya, temennya Luna...</div>
+        </td>
+        <td>
+          <table class="salsam_table">
+            <thead>
+              <tr>
+                <td>
+                  <div class="salsam_opt first" id="to4003"><a href="#4003">Halo Inya, ada apa ya? </a> <span>&rarr;4003</span></div>
+                </td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <div class="salsam_mc">Halo Inya, ada apa ya?</div>
+                  <!-- 4003 -->
+                </td>
+              </tr>
+            </tbody>
+            <thead>
+              <tr>
+                <td>
+                  <div class="salsam_opt" id="to4003"><a href="#4003">Ohhh, temennya Luna </a> <span>&rarr;4003</span></div>
+                </td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <div class="salsam_mc">Ohhh, temennya Luna</div>
+                  <!-- 4003 -->
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+        <td></td>
+      </tr>
+      <tr id="4003">
+        <td>
+          <a name="4003"></a>
+          <a href="#to4003">4003</a>
+        </td>
+        <td>
+          <div class="salsam_luna">Bener ya,</div>
+          <div class="salsam_luna">kamu kenal sama Luna</div>
+        </td>
+        <td>
+          <table class="salsam_table">
+            <thead>
+              <tr>
+                <td>
+                  <div class="salsam_opt first" id="to4004">
+                    <a href="#4004">
+                      iyapp,<br />
+                      beberapa hari yang lalu kenalnya :)
+                    </a>
+                    <span>&rarr;4004</span>
+                  </div>
+                </td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <div class="salsam_mc">iyapp,</div>
+                  <div class="salsam_mc">beberapa hari yang lalu kenalnya :)</div>
+                  <!-- 4004 -->
+                </td>
+              </tr>
+            </tbody>
+            <thead>
+              <tr>
+                <td>
+                  <div class="salsam_opt" id="to4004">
+                    <a href="#4004">
+                      Bener,<br />
+                      belum lama kok kenalnya ^^
+                    </a>
+                    <span>&rarr;4004</span>
+                  </div>
+                </td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <div class="salsam_mc">Bener,</div>
+                  <div class="salsam_mc">belum lama kok kenalnya ^^</div>
+                  <!-- 4004 -->
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+        <td></td>
+      </tr>
+      <tr id="4004">
+        <td>
+          <a name="4004"></a>
+          <a href="#to4004">4004</a>
+        </td>
+        <td>
+          <div class="salsam_luna">iyah, aku temen deketnya Luna juga,</div>
+          <div class="salsam_luna">dulu sih...</div>
+        </td>
+        <td>
+          <table class="salsam_table">
+            <thead>
+              <tr>
+                <td>
+                  <div class="salsam_opt first" id="to4005"><a href="#4005">Dulu? </a> <span>&rarr;4005</span></div>
+                </td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <div class="salsam_mc">Dulu?</div>
+                  <!-- 4005 -->
+                </td>
+              </tr>
+            </tbody>
+            <thead>
+              <tr>
+                <td>
+                  <div class="salsam_opt" id="to4005"><a href="#4005">Loh...sekarang udah nggak? </a> <span>&rarr;4005</span></div>
+                </td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <div class="salsam_mc">Loh...sekarang udah nggak?</div>
+                  <!-- 4005 -->
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+        <td></td>
+      </tr>
+      <tr id="4005">
+        <td>
+          <a name="4005"></a>
+          <a href="#to4005">4005</a>
+        </td>
+        <td>
+          <div class="salsam_luna">Menurut kamu,</div>
+          <div class="salsam_luna">Luna gimana orangnya ^^</div>
+        </td>
+        <td>
+          <table class="salsam_table">
+            <thead>
+              <tr>
+                <td>
+                  <div class="salsam_opt first" id="to4006">
+                    <a href="#4006">
+                      Baik kok anaknya :)<br />
+                      cuma kasian aja,<br />
+                      masih belum move on baru aja putus sama pacarnya ^^
+                    </a>
+                    <span>&rarr;4006</span>
+                  </div>
+                </td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <div class="salsam_mc">Baik kok anaknya :)</div>
+                  <div class="salsam_mc">cuma kasian aja,</div>
+                  <div class="salsam_mc">masih belum move on baru aja putus sama pacarnya ^^</div>
+                  <!-- 4006 -->
+                </td>
+              </tr>
+            </tbody>
+            <thead>
+              <tr>
+                <td>
+                  <div class="salsam_opt" id="to4006">
+                    <a href="#4006">
+                      anaknya, lucu, cantik juga, haha :D<br />
+                      tapi masih galau ya, habis putus gitu kayaknya...
+                    </a>
+                    <span>&rarr;4006</span>
+                  </div>
+                </td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <div class="salsam_mc">anaknya, lucu, cantik juga, haha :D</div>
+                  <div class="salsam_mc">tapi masih galau ya, habis putus gitu kayaknya...</div>
+                  <!-- 4006 -->
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+        <td></td>
+      </tr>
+      <tr id="4006">
+        <td>
+          <a name="4006"></a>
+          <a href="#to4006">4006</a>
+        </td>
+        <td>
+          <div class="salsam_luna">terus pacarnya,</div>
+          <div class="salsam_luna">eh mantannya masih sering ngajak ketemu dia gitu kan pasti?</div>
+        </td>
+        <td>
+          <table class="salsam_table">
+            <thead>
+              <tr>
+                <td>
+                  <div class="salsam_opt first" id="to4007">
+                    <a href="#4007">
+                      wait,<br />
+                      kok kamu tahu?
+                    </a>
+                    <span>&rarr;4007</span>
+                  </div>
+                </td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <div class="salsam_mc">wait,</div>
+                  <div class="salsam_mc">kok kamu tahu?</div>
+                  <!-- 4007 -->
+                </td>
+              </tr>
+            </tbody>
+            <thead>
+              <tr>
+                <td>
+                  <div class="salsam_opt" id="to4007"><a href="#4007">maksud kamu? </a> <span>&rarr;4007</span></div>
+                </td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <div class="salsam_mc">maksud kamu?</div>
+                  <!-- 4007 -->
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+        <td></td>
+      </tr>
+      <tr id="4007">
+        <td>
+          <a name="4007"></a>
+          <a href="#to4007">4007</a>
+        </td>
+        <td>
+          <div class="salsam_luna">Kamu udah ketemu sama dia??</div>
+        </td>
+        <td>
+          <table class="salsam_table">
+            <thead>
+              <tr>
+                <td>
+                  <div class="salsam_opt first" id="to4008">
+                    <a href="#4008">
+                      Udah janjian sih,<br />
+                      mungkin beberapa saat lagi
+                    </a>
+                    <span>&rarr;4008</span>
+                  </div>
+                </td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <div class="salsam_mc">Udah janjian sih,</div>
+                  <div class="salsam_mc">mungkin beberapa saat lagi</div>
+                  <!-- 4008 -->
+                </td>
+              </tr>
+            </tbody>
+            <thead>
+              <tr>
+                <td>
+                  <div class="salsam_opt" id="to4010"><a href="#4010">Belum? emang kenapa? </a> <span>&rarr;4010</span></div>
+                </td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <div class="salsam_mc">Belum? emang kenapa?</div>
+                  <!-- 4010 -->
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+        <td></td>
+      </tr>
+      <tr id="4008">
+        <td>
+          <a name="4008"></a>
+          <a href="#to4008">4008</a>
+        </td>
+        <td>
+          <div class="salsam_luna">wait jangann!!</div>
+          <div class="salsam_luna">jangan ketemu dia,</div>
+          <div class="salsam_luna">dia psikopat!</div>
+        </td>
+        <td>
+          <table class="salsam_table">
+            <thead>
+              <tr>
+                <td>
+                  <div class="salsam_opt first" id="to4009">
+                    <a href="#4009">
+                      maksud kamu apa sih,<br />
+                      bilang Luna psikopat?
+                    </a>
+                    <span>&rarr;4009</span>
+                  </div>
+                </td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <div class="salsam_mc">maksud kamu apa sih,</div>
+                  <div class="salsam_mc">bilang Luna psikopat?</div>
+                  <!-- 4009 -->
+                </td>
+              </tr>
+            </tbody>
+            <thead>
+              <tr>
+                <td>
+                  <div class="salsam_opt" id="to4009"><a href="#4009">psikopat gimana sih? </a> <span>&rarr;4009</span></div>
+                </td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <div class="salsam_mc">psikopat gimana sih?</div>
+                  <!-- 4009 -->
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+        <td></td>
+      </tr>
+      <tr id="4009">
+        <td>
+          <a name="4009"></a>
+          <a href="#to4009">4009</a>
+        </td>
+        <td>
+          <div class="salsam_luna">Mau tau salah satunya?</div>
+          <div class="salsam_luna">Mantan Luna itu udah meninggal sejak tahun lalu,</div>
+          <div class="salsam_luna">meninggal di kostnya...</div>
+        </td>
+        <td>
+          <table class="salsam_table">
+            <thead>
+              <tr>
+                <td>
+                  <div class="salsam_opt first" id="to4011"><a href="#4011">Jangan ngomong asal ya... </a> <span>&rarr;4011</span></div>
+                </td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <div class="salsam_mc">Jangan ngomong asal ya...</div>
+                  <!-- 4011 -->
+                </td>
+              </tr>
+            </tbody>
+            <thead>
+              <tr>
+                <td>
+                  <div class="salsam_opt" id="to4011"><a href="#4011">What? beneran? </a> <span>&rarr;4011</span></div>
+                </td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <div class="salsam_mc">What? beneran?</div>
+                  <!-- 4011 -->
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+        <td></td>
+      </tr>
+      <tr id="4010">
+        <td>
+          <a name="4010"></a>
+          <a href="#to4010">4010</a>
+        </td>
+        <td>
+          <div class="salsam_luna">Baguslahh,</div>
+          <div class="salsam_luna">lega gue.../ Luna tuh psikopat!</div>
+        </td>
+        <td>
+          <table class="salsam_table">
+            <thead>
+              <tr>
+                <td>
+                  <div class="salsam_opt first" id="to4009">
+                    <a href="#4009">
+                      maksud kamu apa sih,<br />
+                      bilang Luna psikopat?
+                    </a>
+                    <span>&rarr;4009</span>
+                  </div>
+                </td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <div class="salsam_mc">maksud kamu apa sih,</div>
+                  <div class="salsam_mc">bilang Luna psikopat?</div>
+                  <!-- 4009 -->
+                </td>
+              </tr>
+            </tbody>
+            <thead>
+              <tr>
+                <td>
+                  <div class="salsam_opt" id="to4009"><a href="#4009">psikopat gimana sih? </a> <span>&rarr;4009</span></div>
+                </td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <div class="salsam_mc">psikopat gimana sih?</div>
+                  <!-- 4009 -->
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+        <td></td>
+      </tr>
+      <tr id="4011">
+        <td>
+          <a name="4011"></a>
+          <a href="#to4011">4011</a>
+        </td>
+        <td>
+          <div class="salsam_luna">Ngerinya lagi,</div>
+          <div class="salsam_luna">waktu ditemuin meninggal,</div>
+          <div class="salsam_luna">Luna tuh lagi di kamar kost itu juga...</div>
+        </td>
+        <td>
+          <table class="salsam_table">
+            <thead>
+              <tr>
+                <td>
+                  <div class="salsam_opt first" id="to4012"><a href="#4012">Kamu ngomong bener kan? </a> <span>&rarr;4012</span></div>
+                </td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <div class="salsam_mc">Kamu ngomong bener kan?</div>
+                  <!-- 4012 -->
+                </td>
+              </tr>
+            </tbody>
+            <thead>
+              <tr>
+                <td>
+                  <div class="salsam_opt" id="to4012">
+                    <a href="#4012">
+                      What?? Luna??<br />
+                      dia ngapain di sana?
+                    </a>
+                    <span>&rarr;4012</span>
+                  </div>
+                </td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <div class="salsam_mc">What?? Luna??</div>
+                  <div class="salsam_mc">dia ngapain di sana?</div>
+                  <!-- 4012 -->
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+        <td></td>
+      </tr>
+      <tr id="4012">
+        <td>
+          <a name="4012"></a>
+          <a href="#to4012">4012</a>
+        </td>
+        <td>
+          <div class="salsam_luna">Kalo kamu ga percaya ya udah,</div>
+          <div class="salsam_luna">aku cuma mau ngasih tahu aja,</div>
+          <div class="salsam_luna">aku tuh khawatir banget Luna ngulangin lagi siasatnya ke cowok-cowok random...</div>
+          <div class="salsam_luna">jauh jauh deh dari orang psikopat...</div>
+        </td>
+        <td>
+          <table class="salsam_table">
+            <thead>
+              <tr>
+                <td>
+                  <div class="salsam_opt first" id="to4013"><a href="#4013">Inya, Thank you yah buat infonya...Luna... </a> <span>&rarr;4013</span></div>
+                </td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <div class="salsam_mc">Inya, Thank you yah buat infonya...Luna...</div>
+                  <!-- 4013 -->
+                </td>
+              </tr>
+            </tbody>
+            <thead>
+              <tr>
+                <td>
+                  <div class="salsam_opt" id="to4013"><a href="#4013">aku speechless :( </a> <span>&rarr;4013</span></div>
+                </td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <div class="salsam_mc">aku speechless :(</div>
+                  <!-- 4013 -->
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+        <td></td>
+      </tr>
+      <tr id="4013">
+        <td>
+          <a name="4013"></a>
+          <a href="#to4013">4013</a>
+        </td>
+        <td>
+          <div class="salsam_luna">Kamu kok bisa kenal sih ama Luna?</div>
+          <div class="salsam_luna">Ati-ati deh sama orang baru gitu, jangan main ketemu aja...</div>
+        </td>
+        <td>
+          <table class="salsam_table">
+            <thead>
+              <tr>
+                <td>
+                  <div class="salsam_opt first" id="to4014">
+                    <a href="#4014">
+                      Okee, okee<br />
+                      thank you sekali lagi...
+                    </a>
+                    <span>&rarr;4014</span>
+                  </div>
+                </td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <div class="salsam_mc">Okee, okee</div>
+                  <div class="salsam_mc">thank you sekali lagi...</div>
+                  <!-- 4014 -->
+                </td>
+              </tr>
+            </tbody>
+            <thead>
+              <tr>
+                <td>
+                  <div class="salsam_opt" id="to4014">
+                    <a href="#4014">
+                      Iya...<br />
+                      thank you Inya...
+                    </a>
+                    <span>&rarr;4014</span>
+                  </div>
+                </td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <div class="salsam_mc">Iya...</div>
+                  <div class="salsam_mc">thank you Inya...</div>
+                  <!-- 4014 -->
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+        <td></td>
+      </tr>
+      <tr id="4014">
+        <td>
+          <a name="4014"></a>
+          <a href="#to4014">4014</a>
+        </td>
+        <td>
+          <div class="salsam_luna">Yapp,</div>
+          <div class="salsam_luna">sama-sama, Byee</div>
+        </td>
+        <td>
+          <span><i>Tidak ada pilihan lagi...</i></span>
+        </td>
+        <td>
+          <div style="clear: both;"></div>
+          <center><div class="salsam_left">move_selesai_inya</div></center>
+          <div style="clear: both;"></div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <br />
+  Disajikan oleh William Surya Permana untuk <a href="//isamunoheya.blogspot.com">Isamu no Heya</a>.
+
+  <script>
+    (function () {
+	  document.getElementById("playmoderadio").click();
+      if (window.location.href.indexOf("#") == -1) window.location.href = "#4001";
+	  document.getElementsByTagName("body")[0].style.display = "";
+    })();
+  </script>
+</body>

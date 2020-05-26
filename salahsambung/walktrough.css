@@ -1,0 +1,125 @@
+.salsam_table_outer, .salsam_table {
+  background-color: #eee;
+  font-family: 'Lato', sans-serif;
+}
+.salsam_table_outer {
+  padding: 5px;
+  border: 1px solid lightgray;
+  min-width: 340px;
+}
+.salsam_table {
+  border: 1px solid black;
+  width: 100%;
+  margin: 10px 2px;
+  clear:both
+}
+.salsam_table tr td {
+  border: 1px solid lightgray !important;
+}
+
+.salsam_luna, .salsam_mc {
+  padding: 5px 10px;
+  margin: 4px 6px;
+  border-radius: 5px;
+  max-width: 200px;
+  position: relative;
+  clear: both;
+}
+.salsam_luna {
+  border: 1px solid lightgray;
+  background-color: white;
+  color: #333;
+  float: left;
+  margin-left: 40px;
+  font-style: normal !important;
+}
+.salsam_mc {
+  border: 1px solid orange;
+  background-color: orange;
+  color: white;
+  float: right;
+  text-align: left !important;
+}
+
+.salsam_luna:after, .salsam_mc:before {
+  position: absolute;
+  bottom: 2px;
+  color: #999;
+  font-size: 60%;
+  white-space: pre;
+}
+.salsam_luna:after {
+  content: '00:00';
+  right: -30px;
+  text-align: left;
+}
+.salsam_mc:before {
+  content: 'Read\A 00:00';
+  left: -30px;
+  text-align: right;
+}
+.salsam_mc.rec:before {
+  content: 'Rute\A rekomendasi!';
+  color: red;
+  left: -58px;
+}
+
+.salsam_luna:before {
+  content: ' ';
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: -40px;
+  top: 0;
+  background-image: url('//williamsp.github.io/salahsambung/internal_images/profile_picture.jpg');
+  background-size: 30px;
+  border-radius: 15px;
+}
+
+.salsam_inya:before {
+  background-image: url('//williamsp.github.io/salahsambung/internal_images/profile_picture_inya.jpg') !important;
+}
+
+.salsam_luna img {
+  border: none;
+  border-radius: 5px;
+  margin: -5px -10px;
+  margin-bottom: -8px;
+  height: 125px;
+}
+
+.salsam_left {
+  clear: both;
+  display: inline-block;
+  margin: auto;
+  color: white;
+  background-color: #aaa;
+  font-size: 13px;
+  border-radius: 5px; 
+  padding: 5px 10px;
+}
+
+.hidden { display: none }
+.salsam_info tr { vertical-align: top }
+.salsam_info ul { margin-left: -20px !important }
+.salsam_info li { margin: 0 !important }
+
+.salsam_head {
+  font-family: Lato; 
+  font-size: 16px; 
+  border: 1px solid black;
+}
+.salsam_head div {
+  border-radius: 0px 5px 5px 0; 
+  background-color: orange; 
+  color: white; 
+  padding: 5px 45px; 
+  display: inline-block;
+}
+.salsam_head img {
+  min-width: 150px;
+}
+.salsam_head center {
+  display:block; 
+  padding: 0px 50px
+}

@@ -1,31 +1,35 @@
 ### Selamat datang di [williamsp.github.io](https://williamsp.github.io)
 
-Ini adalah halaman Github pribadi saya yang akan digunakan sebagai tempat penampung 
-berbagai perkakas dan media yang akan disematkan atau ditautkan dalam blog 
-[Isamu no Heya](https://isamunoheya.blogspot.com).
+Ini adalah halaman GitHub pribadi saya yang akan digunakan sebagai tempat 
+penampung berbagai perkakas dan media yang akan disematkan atau ditautkan
+dalam blog [Isamu no Heya](https://isamunoheya.blogspot.com).
 
 ---
 
 #### Latar belakang
 
-Sebelumnya saya menggunakan layanan 000webhost di https://isamunoheya.000webhostapp.com.
-Namun kini kebijakan layanan hosting dan domain gratis ini semakin menekan.
-Jika konten kita dibuka 100 kali dari tempat berbeda (seperti saat di*hotlink* dari berbagai situs)
-dan/atau oleh pengguna berbeda (termasuk oleh *search bot*, *web archiver* dengan banyak IP),
-maka situs kita akan ditutup selama 24 jam dengan alasan Pelanggaran Ketentuan Layanan.
+Awalnya saya menggunakan layanan 000webhost. Seiring berjalannya waktu, 
+kebijakan mereka semakin menekan. Contohnya, saat konten kita dibuka 100 
+kali dari tempat berbeda (seperti saat di*hotlink* dari berbagai situs) 
+dan/atau oleh pengguna berbeda (termasuk oleh *search bot*, *web archiver*
+dengan banyak IP), otomatis situs akan ditutup selama 24 jam dengan alasan
+Pelanggaran Ketentuan Layanan.
 
-Maka dari itu akhirnya saya memutuskan untuk menggunakan layanan halaman Github ini sebagai
-alternatif hosting yang juga gratis, namun lebih andal. Selain itu, di sini semua perubahan
-pada berkas akan tercatat dan dapat dibatalkan. Meski sayangnya, belum bisa membuat
-konten dinamis (seperti PHP) di sini.
+Karena itulah saya beralih ke GitHub, yang saya yakin lebih andal dan stabil.
+Selain sama-sama mendapatkan hosting dan domain gratis, di sini semua 
+perubahan tercatat dan dapat dibatalkan sewaktu-waktu. Meski ada 
+kekurangannya, seperti belum bisa membuat konten dinamis (seperti PHP).
 
 ---
 
 #### Isi
 
 Berikut isi sudah dipindah dan tersedia di sini:
-- [Alat bantu terjemahan](https://williamsp.github.io/perkakas/terjemahan) &mdash; 
-Bandingkan hasil beberapa terjemahan mesin
+
+- [Alat bantu terjemahan](https://williamsp.github.io/perkakas/terjemahan)
+&mdash; Bandingkan hasil beberapa terjemahan mesin
+- [Simulasi Salah Sambung](https://williamsp.github.io/salahsambung)
+&mdash; Jelajahi dengan bebas rute Salah Sambung tanpa takut salah langkah
 
 ---
 
