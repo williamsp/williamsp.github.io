@@ -18,7 +18,7 @@
 [<img src='10. Album 8 - Inya dan Luna_Lrb3giSV.JPG' height='100'/>](10. Album 8 - Inya dan Luna_Lrb3giSV.JPG)
 [<img src='11. Album 9 - Foto Bareng_Lsp7ghSV.JPG' height='100'/>](11. Album 9 - Foto Bareng_Lsp7ghSV.JPG)
 [<img src='11. Album 9 - Foto Bareng_Mrp8ghSU.JPG' height='100'/>](11. Album 9 - Foto Bareng_Mrp8ghSU.JPG)
-<!--[<img src='11. Album 9 - Foto Bareng_MSu9khTX.JPG' height='100'/>](11. Album 9 - Foto Bareng_MSu9khTX.JPG)-->
+[<img src='11. Album 9 - Foto Bareng_MSu9khTX.JPG' height='100'/>](11. Album 9 - Foto Bareng_MSu9khTX.JPG)
 [<img src='12. Album 10 - Jepang_NTu9khTW.JPG' height='100'/>](12. Album 10 - Jepang_NTu9khTW.JPG)
 [<img src='12. Album 10 - Jepang_NTw9khTU.JPG' height='100'/>](12. Album 10 - Jepang_NTw9khTU.JPG)
 [<img src='13. foto ending_Oqp9jhSV.jpg' height='100'/>](13. foto ending_Oqp9jhSV.jpg)
