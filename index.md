@@ -20,8 +20,6 @@ Selain sama-sama mendapatkan hosting dan domain gratis, di sini semua
 perubahan tercatat dan dapat dibatalkan sewaktu-waktu. Meski ada 
 kekurangannya, seperti belum bisa membuat konten dinamis (seperti PHP).
 
----
-
 #### Isi
 
 Berikut isi sudah dipindah dan tersedia di sini:
