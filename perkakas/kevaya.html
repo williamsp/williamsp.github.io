@@ -1,0 +1,43 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script>
+	function OKbtn() {
+		var pre=$('#pre').val();
+		var key=$('#key').val();
+
+		var hsl='secrets:\n';
+		key.split('\n').map(k => {
+			t = k;
+			if(t.indexOf("=")>0) t=t.substr(t.indexOf("=")+1);
+			t = t.trim().replace(new RegExp("^[\"]+"), "").replace(new RegExp("[\"]+$"), "").trim();
+			if(t=="") {
+				hsl += '\n';
+				return;
+			};
+
+			hsl += '  - name: "'+t+'"\n';
+			hsl += '    value: '+pre+'#'+t+'\n';
+		});
+		$('#hsl').val(hsl);
+	}
+</script>
+
+<style>
+	body { text-align:center; font-family:sans-serif }
+	input { width:100% }
+	textarea { width:100%; height:150px; border: 1px solid grey }
+</style>
+
+<title>Key &rarr; Vault YAML</title>
+
+<h2>Key &rarr; Vault YAML</h2>
+Mengkonversi daftar key env config ke format yang siap disalin ke vault YAML<br><br>
+
+Prefiks: <input id="pre" value="secret_v2/" />
+Daftar key: <textarea id="key"></textarea>
+<input type=button value=Konversi style="width:100%" onclick="OKbtn()"/><br><br>
+
+<h3>Hasil</h3>
+<textarea id="hsl"></textarea>
+
+<br><br>&copy; 2020 William Surya Permana
