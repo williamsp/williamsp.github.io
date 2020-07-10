@@ -22,10 +22,12 @@ kekurangannya, seperti belum bisa membuat konten dinamis (seperti PHP).
 
 #### Isi
 
-Berikut isi sudah dipindah dan tersedia di sini:
+Berikut isi yang tersedia di sini:
 
 - [Alat bantu terjemahan](https://williamsp.github.io/perkakas/terjemahan)
 &mdash; Bandingkan hasil beberapa terjemahan mesin
+- [JSwine](https://williamsp.github.io/perkakas/jswine)
+&mdash; Mengembalikan berkas JSON pada novel visual (VN) menjadi proyek Twine
 - [Simulasi Salah Sambung](https://williamsp.github.io/salahsambung)
 &mdash; Jelajahi dengan bebas rute Salah Sambung tanpa takut salah langkah
 
