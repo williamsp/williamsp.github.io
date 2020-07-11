@@ -26,8 +26,8 @@ Berikut isi yang tersedia di sini:
 
 - [Alat bantu terjemahan](https://williamsp.github.io/perkakas/terjemahan)
 &mdash; Bandingkan hasil beberapa terjemahan mesin
-- [JSwine](https://williamsp.github.io/perkakas/jswine)
-&mdash; Mengembalikan berkas JSON pada novel visual (VN) menjadi proyek Twine
+- [Twine tool](https://williamsp.github.io/twine_tool)
+&mdash; Perkakas Twine untuk mengembalikan JSON pada VN menjadi proyek Twine, serta pencari rute
 - [Simulasi Salah Sambung](https://williamsp.github.io/salahsambung)
 &mdash; Jelajahi dengan bebas rute Salah Sambung tanpa takut salah langkah
 
